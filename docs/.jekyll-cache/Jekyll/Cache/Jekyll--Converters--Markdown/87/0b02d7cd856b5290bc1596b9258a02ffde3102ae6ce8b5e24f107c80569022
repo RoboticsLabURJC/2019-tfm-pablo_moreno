@@ -1,0 +1,39 @@
+I"�<p>Hi again!
+On my first week doing different stuff I had to read a TFG of one of my partners named Rubén Álvarez. He made an amazing job and explained so much interesting things about kibotics organization, wich is where I belong.</p>
+
+<p>Also, I had to test some code about screen sharing to develop on kibotics practices. I had tested some codes but they weren’t useful so I finally found an insteresting code from <a href="https://github.com/muaz-khan/">Muaz Khan</a> who uses WebRTC and It doesn’t need any extrension or plugin at the browser. I’ve modifed the code to add JdeRobot information instead of him. The exmaple is in the following video:</p>
+
+<p><a href="https://www.youtube.com/watch?v=GloVpVrjjOk"><img src="/assets/images/posts/share.png" alt="Screen-sharing" /></a></p>
+
+<p>I’ve been learning about <strong>WebSocket</strong> and I’ve made a simple Server and Client communication.</p>
+
+<p>Hi everybody!</p>
+
+<p>I’m Pablo Moreno Vera, student of the master in <a href="https://www.urjc.es/estudios/master/872-ingenieria-de-telecomunicacion">Telecommunication Engineering at
+Rey Juan Carlos University</a>.</p>
+
+<p>I’m starting at blogging with this first post. I didn’t try it before and I hope post every week.
+My Post-Degree Project is about <a href="https://kibotics.org/">Klibotics</a> and <a href="https://unibotics.org/">Unibotics</a> platforms.</p>
+
+<p>On my first week I must study about blogs with Jekyll.</p>
+
+<p>I installed Ruby and Jekyll: I followed the <a href="https://github.com/RoboticsLabURJC/2019-tfm-ignacio-arranz/tree/master/docs_template">installations</a> steps. But It’s
+so hard to everything works on the first try so I had some troubles. After I installed both softwares, I tried to launch the repository I cloned from <a href="https://github.com/RoboticsLabURJC/2019-tfm-ignacio-arranz/tree/master/docs_template">here</a>
+and copy into mine but I got this error: <code class="highlighter-rouge">/usr/local/lib/site_ruby/2.5.0/rubygems.rb:289:infind_spec_for_exe’: can’t find gem bundler (&gt;= 0.a) with executable bundle (Gem::GemNotFoundException)</code></p>
+
+<p>To fix that problem I followed these steps:</p>
+<ol>
+  <li>I made a cat of the “Gemfile.lock” to guess the bundle version used. The version was “bundle 2.0.2”</li>
+  <li>I ran <code class="highlighter-rouge">gem bundler -v 2.0.2</code> to select the bundle version.</li>
+  <li>I ran <code class="highlighter-rouge">bundle update listen</code> to update the dependencies for that version.</li>
+  <li>I ran <code class="highlighter-rouge">bundle i</code> to activate that version.</li>
+  <li>Once I had the version updated and activated, I ran the <code class="highlighter-rouge">bundle exec jekyll serve</code> command to start my blog and ¡BINGO! it worked.</li>
+</ol>
+
+<figure>
+	<a href=""><img src="/assets/images/posts/start-the-adventure" /></a>
+	<!-- <figcaption>.</figcaption> -->
+</figure>
+
+<p>Pablo.</p>
+:ET
