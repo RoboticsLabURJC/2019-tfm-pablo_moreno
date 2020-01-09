@@ -2,16 +2,6 @@
 
 Use your browser to share content of screen in High-Quality (HD) format with one or more users!
 
-**Firefox?** [Install Firefox Extension](https://www.webrtc-experiment.com/store/firefox-extension/enable-screen-capturing.xpi) / [Source Code](https://github.com/muaz-khan/Firefox-Extensions/tree/master/enable-screen-capturing)
-
-This WebRTC experiment uses a chrome extension:
-
-* https://chrome.google.com/webstore/detail/screen-capturing/ajhifddimkapgcifgcodmmfdlknahffk
-
-> Same [chrome extension](https://chrome.google.com/webstore/detail/screen-capturing/ajhifddimkapgcifgcodmmfdlknahffk) can be used in all your domains! You don't need to deploy yourself!
-
-Read more here: https://github.com/muaz-khan/WebRTC-Experiment/tree/master/Chrome-Extensions/desktopCapture
-
 ### Disclaimer
 
 It isn't totally pluginfree (unfortunately)! You'll be asked either to enable command-line flag or install a chrome extension.
@@ -197,7 +187,7 @@ function captureUserMedia(onStreamApproved) {
         return;
     }
 
-    // this statement sets gets 'sourceId" and sets "chromeMediaSourceId" 
+    // this statement sets gets 'sourceId" and sets "chromeMediaSourceId"
     if (DetectRTC.screen.chromeMediaSource == 'desktop') {
         screen_constraints.mandatory.chromeMediaSourceId = DetectRTC.screen.sourceId;
     }
