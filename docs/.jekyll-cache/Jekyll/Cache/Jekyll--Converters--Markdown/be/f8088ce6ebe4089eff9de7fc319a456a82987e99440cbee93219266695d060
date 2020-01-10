@@ -1,0 +1,16 @@
+I"<p>Hi again!
+On my first week doing different stuff I had to read a TFG of one of my partners named Rubén Álvarez. He made an amazing job and explained so much interesting things about kibotics organization, wich is where I belong.</p>
+
+<p>Also, I had to test some code about screen sharing to develop on kibotics practices. I had tested some codes but they weren’t useful so I finally found an insteresting code from <a href="https://github.com/muaz-khan/">Muaz Khan</a> who uses <strong>WebRTC</strong> and It doesn’t need any extrension or plugin at the browser. I’ve modifed the code to add JdeRobot information instead of him. You can watch the video <a href="https://www.youtube.com/watch?v=GloVpVrjjOk">here</a>.</p>
+
+<p>I’ve been learning about <strong>WebSocket</strong> and I’ve made a simple Server and Client communication:</p>
+
+<figure>
+	<a href=""><img src="/assets/images/posts/websocket_test" /></a>
+	<!-- <figcaption>.</figcaption> -->
+</figure>
+
+<p>And that’s all about this week!</p>
+
+<p>Pablo.</p>
+:ET
