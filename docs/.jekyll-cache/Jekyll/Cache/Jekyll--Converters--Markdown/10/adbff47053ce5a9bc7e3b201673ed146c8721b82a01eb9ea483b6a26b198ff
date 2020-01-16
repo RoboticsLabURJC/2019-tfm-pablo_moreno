@@ -1,0 +1,23 @@
+I"}<p>Hi again!</p>
+
+<p>On my second week I’ve been working on WebRTC tecnologies like WebSockets, RTCPeerConnection and DataChannels.
+The main objective is develop a code to share a video element (in this case is the Kibotics websim) with othe user using WebRTC.</p>
+
+<p>I’ve been studying differents examples from internet, mainly in the <a href="https://webrtc.github.io/samples/">WebRTC tutorials page</a>.
+Following these tutorials I’ve develop the following examples:</p>
+
+<ol>
+  <li>stream_camera example. This example record the laptop camera and play it on an html video.</li>
+  <li>element_share. This example play a html embed video clicking in the “Start” button and play it on a second html video.</li>
+  <li>peerconnection_stream. This example it’s a bit more complicated and record a html embed video and stream it via RTCPeerConnection
+to a second html video. The example works perfect streaming the camera video but using the html embed video, the stream it’s played in black.</li>
+  <li>RTCPeedConnectionServer. In this example I’ve developped a signalig WebRTC server to connect different user by pairs
+with a unique token secuence.</li>
+  <li>chat_server. This last developped example uses the 4) example to implement a chat with DataChannels. It’s a work in progress
+and I hope to finish it tomorrow.</li>
+</ol>
+
+<p>And that’s all about this week!</p>
+
+<p>Pablo.</p>
+:ET

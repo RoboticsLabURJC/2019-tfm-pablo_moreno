@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-10T10:13:19+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 1. Screen-sharing</title><link href="http://localhost:4000/previous%20work/week-1/" rel="alternate" type="text/html" title="Week 1. Screen-sharing" /><published>2020-01-09T00:00:00+01:00</published><updated>2020-01-09T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-1</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-1/">&lt;p&gt;Hi again!
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-16T13:07:38+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 2. Learning WebRTC</title><link href="http://localhost:4000/previous%20work/week-2/" rel="alternate" type="text/html" title="Week 2. Learning WebRTC" /><published>2020-01-16T00:00:00+01:00</published><updated>2020-01-16T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-2</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-2/">&lt;p&gt;Hi again!&lt;/p&gt;
+
+&lt;p&gt;On my second week I’ve been working on WebRTC tecnologies like WebSockets, RTCPeerConnection and DataChannels.
+The main objective is develop a code to share a video element (in this case is the Kibotics websim) with othe user using WebRTC.&lt;/p&gt;
+
+&lt;p&gt;I’ve been studying differents examples from internet, mainly in the &lt;a href=&quot;https://webrtc.github.io/samples/&quot;&gt;WebRTC tutorials page&lt;/a&gt;.
+Following these tutorials I’ve develop the following examples:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;stream_camera example. This example record the laptop camera and play it on an html video.&lt;/li&gt;
+  &lt;li&gt;element_share. This example play a html embed video clicking in the “Start” button and play it on a second html video.&lt;/li&gt;
+  &lt;li&gt;peerconnection_stream. This example it’s a bit more complicated and record a html embed video and stream it via RTCPeerConnection
+to a second html video. The example works perfect streaming the camera video but using the html embed video, the stream it’s played in black.&lt;/li&gt;
+  &lt;li&gt;RTCPeedConnectionServer. In this example I’ve developped a signalig WebRTC server to connect different user by pairs
+with a unique token secuence.&lt;/li&gt;
+  &lt;li&gt;chat_server. This last developped example uses the 4) example to implement a chat with DataChannels. It’s a work in progress
+and I hope to finish it tomorrow.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And that’s all about this week!&lt;/p&gt;
+
+&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 2" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><summary type="html">WebRTC tecnologies</summary></entry><entry><title type="html">Week 1. Screen-sharing</title><link href="http://localhost:4000/previous%20work/week-1/" rel="alternate" type="text/html" title="Week 1. Screen-sharing" /><published>2020-01-09T00:00:00+01:00</published><updated>2020-01-09T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-1</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-1/">&lt;p&gt;Hi again!
 On my first week doing different stuff I had to read a TFG of one of my partners named Rubén Álvarez. He made an amazing job and explained so much interesting things about kibotics organization, wich is where I belong.&lt;/p&gt;
 
 &lt;p&gt;Also, I had to test some code about screen sharing to develop on kibotics practices. I had tested some codes but they weren’t useful so I finally found an insteresting code from &lt;a href=&quot;https://github.com/muaz-khan/&quot;&gt;Muaz Khan&lt;/a&gt; who uses &lt;strong&gt;WebRTC&lt;/strong&gt; and It doesn’t need any extrension or plugin at the browser. I’ve modifed the code to add JdeRobot information instead of him. You can watch the video &lt;a href=&quot;https://www.youtube.com/watch?v=GloVpVrjjOk&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -6,7 +27,7 @@ On my first week doing different stuff I had to read a TFG of one of my partners
 &lt;p&gt;I’ve been learning about &lt;strong&gt;WebSocket&lt;/strong&gt; and I’ve made a simple Server and Client communication:&lt;/p&gt;
 
 &lt;figure&gt;
-	&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;/assets/images/posts/websocket_test&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;2019-tfm-pablo-moreno/assets/images/posts/websocket_test&quot; /&gt;&lt;/a&gt;
 	&lt;!-- &lt;figcaption&gt;.&lt;/figcaption&gt; --&gt;
 &lt;/figure&gt;
 
@@ -36,7 +57,7 @@ and copy into mine but I got this error: &lt;code class=&quot;highlighter-rouge&
 &lt;/ol&gt;
 
 &lt;figure&gt;
-	&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;/assets/images/posts/start-the-adventure&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;2019-tfm-pablo-moreno/assets/images/posts/start-the-adventure&quot; /&gt;&lt;/a&gt;
 	&lt;!-- &lt;figcaption&gt;.&lt;/figcaption&gt; --&gt;
 &lt;/figure&gt;
 

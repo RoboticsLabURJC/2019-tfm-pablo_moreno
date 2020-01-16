@@ -18,4 +18,9 @@ var store = [{
         "excerpt":"Hi again! On my first week doing different stuff I had to read a TFG of one of my partners named Rubén Álvarez. He made an amazing job and explained so much interesting things about kibotics organization, wich is where I belong. Also, I had to test some code about...","categories": ["Previous work"],
         "tags": ["logbook","first steps","week 1","WebRTC","websocket","JavaScript"],
         "url": "http://localhost:4000/previous%20work/week-1/",
+        "teaser":null},{
+        "title": "Week 2. Learning WebRTC",
+        "excerpt":"Hi again! On my second week I’ve been working on WebRTC tecnologies like WebSockets, RTCPeerConnection and DataChannels. The main objective is develop a code to share a video element (in this case is the Kibotics websim) with othe user using WebRTC. I’ve been studying differents examples from internet, mainly in...","categories": ["Previous work"],
+        "tags": ["logbook","first steps","week 2","WebRTC","WebSocket","JavaScript","HTML","CSS","RTCPeerConnections","DataChannels"],
+        "url": "http://localhost:4000/previous%20work/week-2/",
         "teaser":null}]
