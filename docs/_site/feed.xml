@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-16T13:07:38+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 2. Learning WebRTC</title><link href="http://localhost:4000/previous%20work/week-2/" rel="alternate" type="text/html" title="Week 2. Learning WebRTC" /><published>2020-01-16T00:00:00+01:00</published><updated>2020-01-16T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-2</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-2/">&lt;p&gt;Hi again!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-21T12:06:01+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 2. Learning WebRTC</title><link href="http://localhost:4000/previous%20work/week-2/" rel="alternate" type="text/html" title="Week 2. Learning WebRTC" /><published>2020-01-16T00:00:00+01:00</published><updated>2020-01-16T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-2</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-2/">&lt;p&gt;Hi again!&lt;/p&gt;
 
 &lt;p&gt;On my second week I’ve been working on WebRTC tecnologies like WebSockets, RTCPeerConnection and DataChannels.
 The main objective is develop a code to share a video element (in this case is the Kibotics websim) with othe user using WebRTC.&lt;/p&gt;
@@ -26,16 +26,25 @@ On my first week doing different stuff I had to read a TFG of one of my partners
 
 &lt;p&gt;I’ve been learning about &lt;strong&gt;WebSocket&lt;/strong&gt; and I’ve made a simple Server and Client communication:&lt;/p&gt;
 
-&lt;figure&gt;
-	&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;2019-tfm-pablo-moreno/assets/images/posts/websocket_test&quot; /&gt;&lt;/a&gt;
-	&lt;!-- &lt;figcaption&gt;.&lt;/figcaption&gt; --&gt;
+&lt;figure class=&quot; &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/posts/websocket_test.png&quot;&gt;
+        &lt;img src=&quot;/assets/images/posts/websocket_test.png&quot; alt=&quot;Image websocket_test&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Testing websockets.
+&lt;/figcaption&gt;
+  
 &lt;/figure&gt;
 
 &lt;p&gt;And that’s all about this week!&lt;/p&gt;
 
 &lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 1" /><category term="WebRTC" /><category term="websocket" /><category term="JavaScript" /><summary type="html">Introduce to myself</summary></entry><entry><title type="html">Week 0. Let’s start</title><link href="http://localhost:4000/previous%20work/week-0/" rel="alternate" type="text/html" title="Week 0. Let's start" /><published>2019-12-23T00:00:00+01:00</published><updated>2019-12-23T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-0</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-0/">&lt;p&gt;Hi everybody!&lt;/p&gt;
 
-&lt;p&gt;I’m Pablo Moreno Vera, student of the master in &lt;a href=&quot;https://www.urjc.es/estudios/master/872-ingenieria-de-telecomunicacion&quot;&gt;Telecommunication Engineering at 
+&lt;p&gt;I’m Pablo Moreno Vera, student of the master in &lt;a href=&quot;https://www.urjc.es/estudios/master/872-ingenieria-de-telecomunicacion&quot;&gt;Telecommunication Engineering at
 Rey Juan Carlos University&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I’m starting at blogging with this first post. I didn’t try it before and I hope post every week.
@@ -43,7 +52,7 @@ My Post-Degree Project is about &lt;a href=&quot;https://kibotics.org/&quot;&gt;
 
 &lt;p&gt;On my first week I must study about blogs with Jekyll.&lt;/p&gt;
 
-&lt;p&gt;I installed Ruby and Jekyll: I followed the &lt;a href=&quot;https://github.com/RoboticsLabURJC/2019-tfm-ignacio-arranz/tree/master/docs_template&quot;&gt;installations&lt;/a&gt; steps. But It’s 
+&lt;p&gt;I installed Ruby and Jekyll: I followed the &lt;a href=&quot;https://github.com/RoboticsLabURJC/2019-tfm-ignacio-arranz/tree/master/docs_template&quot;&gt;installations&lt;/a&gt; steps. But It’s
 so hard to everything works on the first try so I had some troubles. After I installed both softwares, I tried to launch the repository I cloned from &lt;a href=&quot;https://github.com/RoboticsLabURJC/2019-tfm-ignacio-arranz/tree/master/docs_template&quot;&gt;here&lt;/a&gt;
 and copy into mine but I got this error: &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/lib/site_ruby/2.5.0/rubygems.rb:289:infind_spec_for_exe’: can’t find gem bundler (&amp;gt;= 0.a) with executable bundle (Gem::GemNotFoundException)&lt;/code&gt;&lt;/p&gt;
 
@@ -56,9 +65,18 @@ and copy into mine but I got this error: &lt;code class=&quot;highlighter-rouge&
   &lt;li&gt;Once I had the version updated and activated, I ran the &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; command to start my blog and ¡BINGO! it worked.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;figure&gt;
-	&lt;a href=&quot;&quot;&gt;&lt;img src=&quot;2019-tfm-pablo-moreno/assets/images/posts/start-the-adventure&quot; /&gt;&lt;/a&gt;
-	&lt;!-- &lt;figcaption&gt;.&lt;/figcaption&gt; --&gt;
+&lt;figure class=&quot; &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/posts/start-the-adventure.jpeg&quot;&gt;
+        &lt;img src=&quot;/assets/images/posts/start-the-adventure.jpeg&quot; alt=&quot;Let's Start&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Let’s start.
+&lt;/figcaption&gt;
+  
 &lt;/figure&gt;
 
 &lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 0" /><category term="setting environment" /><summary type="html">Introduce to myself</summary></entry><entry><title type="html">My first post</title><link href="http://localhost:4000/your%20category/previous-work/" rel="alternate" type="text/html" title="My first post" /><published>2019-09-05T00:00:00+02:00</published><updated>2019-09-05T00:00:00+02:00</updated><id>http://localhost:4000/your%20category/previous-work</id><content type="html" xml:base="http://localhost:4000/your%20category/previous-work/">&lt;p&gt;Simple text to see the appearance and result of the documentation in a post.&lt;/p&gt;
