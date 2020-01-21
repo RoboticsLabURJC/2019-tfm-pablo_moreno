@@ -19,6 +19,17 @@ const offerOptions = {
   OfferToReceiveVideo: 1
 };
 
+const constraints = {
+  video: {
+    //mediaSource: "screen", // whole screen sharing
+     mediaSource: "window", // choose a window to share
+    // mediaSource: "application", // choose a window to share
+    width: {max: '1920'},
+    height: {max: '1080'},
+    frameRate: {max: '10'}
+  }
+};
+
 startButton.addEventListener('click', start);
 
 
@@ -28,7 +39,7 @@ async function start() {
   leftVideo.play();
   startButton.disabled = true;
 
-  try {
+  /*try {
     if (leftVideo.captureStream) {
       stream = await leftVideo.captureStream();
     } else if (leftVideo.mozCaptureStream) {
@@ -36,11 +47,11 @@ async function start() {
     }
   } catch (e) {
     console.log(`getUserMedia() error: ${e.name}`);
-  }
+  }*/
 
   /* Stream camera video&audio */
-  //const stream = await navigator.mediaDevices.getUserMedia({audio: true, video: true});
-  //leftVideo.srcObject = stream;
+  const stream = await navigator.mediaDevices.getUserMedia(constraints);
+  leftVideo.srcObject = stream;
   //
   localStream = stream;
 
@@ -53,13 +64,12 @@ async function start() {
 
   pc1.addEventListener('icecandidate', e => onIceCandidate(pc1, e));
   pc2.addEventListener('icecandidate', e => onIceCandidate(pc2, e));
-  console.log("Added candidates handlers created.")
+  console.log("Added candidates handlers created.");
 
   pc2.ontrack = gotRemoteStream;
   console.log("Received stream handler created");
 
   pc2.oniceconnectionstatechange = () => console.log('PC2 ice state ' + pc2.iceConnectionState);
-
   console.log("localStream: " + localStream);
 
   console.log(`Streamed tracks added ${localStream.getTracks()[0].label}`);
@@ -130,6 +140,7 @@ async function onIceCandidate(pc, e) {
     if (e.candidate !== null) {
       console.log(`${getName(pc)} new ${event.candidate.candidate}`);
       await getOtherPc(pc).addIceCandidate(e.candidate);
+      console.log(getName(getOtherPc(pc)));
 
       iceCandidates.push(e.candidate);
     }
