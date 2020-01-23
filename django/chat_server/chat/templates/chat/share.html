@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RTCPeerConnection server</title>
+    <style>
+      body {
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .container {
+        border: 2px solid #dedede;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+      }
+
+      .darker {
+        border-color: #ccc;
+        background-color: #ddd;
+        text-align: right;
+      }
+
+      .container::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .time-right {
+        float: right;
+        color: #aaa;
+      }
+
+      .time-left {
+        float: left;
+        color: #999;
+      }
+
+      input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      #chat-div {
+        width: 450px;
+        margin: auto;
+        float: right;
+      }
+
+      #startButton {
+        color: #fff !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: purple;
+        padding: 20px;
+        border-radius: 50px;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chat-div">
+      <div id="loading_state">loading...</div>
+      <div id="messages">
+        <h2>Chat Messages</h2>
+      </div>
+      <div id="textarea">
+        <input type="text" id="channelSend" placeholder="Text"></input>
+      </div>
+    </div>
+    <div id="stream-div" style="float: left;">
+      <!--<video width="650" height="600" id="streamVideo" playsinline>
+        Your browser does not support the video tag.
+      </video>-->
+      <video width="650" height="600" id="showVideo" playsinline autoplay>
+        Your browser does not support the video tag.
+      </video>
+      <div class="box">
+         <button id="startButton">Start</button>
+     </div>
+    </div>
+
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <!--<script src="client.js" async></script>-->
+  </body>
+</html>

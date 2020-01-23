@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-21T12:06:01+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 2. Learning WebRTC</title><link href="http://localhost:4000/previous%20work/week-2/" rel="alternate" type="text/html" title="Week 2. Learning WebRTC" /><published>2020-01-16T00:00:00+01:00</published><updated>2020-01-16T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-2</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-2/">&lt;p&gt;Hi again!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-23T13:01:01+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 3. Learning Django-Channels</title><link href="http://localhost:4000/previous%20work/week-3/" rel="alternate" type="text/html" title="Week 3. Learning Django-Channels" /><published>2020-01-23T00:00:00+01:00</published><updated>2020-01-23T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-3</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-3/">&lt;p&gt;Hi again!&lt;/p&gt;
+
+&lt;p&gt;On my third week I’ve been working on two main projects. I’ve been continue learning about WebRTC, specially about RTCPeerConnections,
+WebSockets and RTCPeerConnections and I’ve also learned about Django and Django-Channels.&lt;/p&gt;
+
+&lt;p&gt;On my WebRTC work I’ve finished a &lt;strong&gt;Chat &amp;amp; Screen-sharing server&lt;/strong&gt;. You can check the progress on
+my &lt;a href=&quot;https://youtu.be/G1qPhagzY6w&quot;&gt;youtube&lt;/a&gt; channel.
+It has been a very hard work but It’s almost finish. My last task is develop an option for media html div sharing.&lt;/p&gt;
+
+&lt;p&gt;On my Django work I’ve developed a &lt;strong&gt;Chat server&lt;/strong&gt; using Django-Channels. It has been a bit more complicated
+than develop the WebRTC chat but I got it with a minor aesthetic changes. The result can be seen in my &lt;a href=&quot;https://youtu.be/_QMhxT_xjw8&quot;&gt;youtube&lt;/a&gt; channel. The next task is implement a RTCPeerConnection with Django-Channels.
+I must study the if media stream it’s possible using Django-Channels and if It is, implement it on my server. The immediate problem
+is that I’m using 1.11 Django version and the 1.1.5 Django-Channels version and the current Django
+version is 3.0.2 and 2.4 for Django-Channels so I really don’t know if this older Django-Channel version supports it.&lt;/p&gt;
+
+&lt;figure class=&quot;half &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/posts/webrtc-logo.png&quot;&gt;
+        &lt;img src=&quot;/assets/images/posts/webrtc-logo.png&quot; alt=&quot;WebRTC&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/posts/django-channels-logo.webp&quot;&gt;
+        &lt;img src=&quot;/assets/images/posts/django-channels-logo.webp&quot; alt=&quot;WebRTC&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;WebRTC &amp;amp; Django-Channels logos
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;And that’s all about this week!&lt;/p&gt;
+
+&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 2" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="Python" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><category term="Django" /><category term="Django-Channels" /><summary type="html">Django tecnologies</summary></entry><entry><title type="html">Week 2. Learning WebRTC</title><link href="http://localhost:4000/previous%20work/week-2/" rel="alternate" type="text/html" title="Week 2. Learning WebRTC" /><published>2020-01-16T00:00:00+01:00</published><updated>2020-01-16T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-2</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-2/">&lt;p&gt;Hi again!&lt;/p&gt;
 
 &lt;p&gt;On my second week I’ve been working on WebRTC tecnologies like WebSockets, RTCPeerConnection and DataChannels.
 The main objective is develop a code to share a video element (in this case is the Kibotics websim) with othe user using WebRTC.&lt;/p&gt;
