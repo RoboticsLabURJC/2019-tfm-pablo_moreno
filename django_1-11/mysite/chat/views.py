@@ -11,6 +11,7 @@ from django.shortcuts import render, redirect
 def index(request):
     return render(request, 'chat/index.html', {})
 
+
 def log_in(request):
     form = AuthenticationForm()
     if request.method == 'POST':

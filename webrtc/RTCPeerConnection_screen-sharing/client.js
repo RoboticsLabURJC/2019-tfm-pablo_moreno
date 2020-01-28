@@ -94,9 +94,13 @@ if (document.location.hash === "" || document.location.hash === undefined) {
     } else if (signal.type === "candidate") {
       if (pc1 === undefined) {
         console.log("Adding new candidate to pc2.");
+        console.log(signal.candidate);
+        console.log("ADDING")
         pc2.addIceCandidate(signal.candidate);
       } else {
         console.log("Adding new candidate to pc1.");
+        console.log(signal.candidate);
+        console.log("ADDING")
         pc1.addIceCandidate(signal.candidate);
       }
 
@@ -158,9 +162,13 @@ if (document.location.hash === "" || document.location.hash === undefined) {
     } else if (signal.type === "candidate") {
       if (pc1 === undefined) {
         console.log("Adding new candidate to pc2.");
+        console.log(signal.candidate);
+        console.log("ADDING")
         pc2.addIceCandidate(signal.candidate);
       } else {
         console.log("Adding new candidate to pc1.");
+        console.log(signal.candidate);
+        console.log("ADDING")
         pc1.addIceCandidate(signal.candidate);
       }
 

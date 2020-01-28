@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+  {% load static %}
 <html>
   <head>
     <meta charset="utf-8">
@@ -93,13 +94,63 @@
         Your browser does not support the video tag.
       </video>
       <div class="box">
-         <button id="startButton">Start</button>
+        <button id="startButton">Start</button>
+     </div>
+     <div id="streamStatus">
+        <p id="pstatus"></p>
      </div>
     </div>
 
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
     <script>
+      var calle = false;
+      let localConnection;
+      let remoteConnection;
+      let sendChannel;
+      let receiveChannel;
+
+      const chatSend = document.getElementById('channelSend');
+
+      //Get & show the stream.
+      const leftVideo = document.getElementById('streamVideo');
+      const rightVideo = document.getElementById('showVideo');
+
+      let stream
+      let localStream;
+      let pc1;
+      let pc2;
+
+      const iceCandidates = [];
+      const offerOptions = {
+        OfferToReceiveAudio: 1,
+        OfferToReceiveVideo: 1
+      };
+
+      const constraints = {
+        video: {
+          mediaSource: "screen", // whole screen sharing
+          //mediaSource: "window", // choose a window to share
+          // mediaSource: "application", // choose a window to share
+          width: {max: '1920'},
+          height: {max: '1080'},
+          frameRate: {max: '10'}
+        }
+      };
+
+      var configuration = {
+        "iceServers": [{ "urls": "stun:stun.1.google.com:19302" }]
+      };
+
       var roomName = "{{ room_name|escapejs }}";
+      var WSocket = new WebSocket(
+        'ws://' + window.location.host +
+        '/ws/chat/' + roomName + '/');
+    </script>
+    <script roomName="{{ room_name|escapejs }}" src="{% static 'js/chat.js' %}"></script>
+    <script src="{% static 'js/webrtc.js' %}"></script>
+    <!--<script>
+
       const chatSend = document.getElementById('channelSend');
 
       console.log(`roomName: ${roomName}`);
@@ -112,7 +163,7 @@
       chatSocket.onmessage = function(e) {
         console.log(e.data);
         //var data = JSON.parse(e.data);
-        //var message = data['message'];
+        //var message = data['message'];{% load staticfiles %}
         add_message("receive", e.data);
       };
 
@@ -169,6 +220,6 @@
           return false;
         }
       };
-    </script>
+    </script>-->
   </body>
 </html>
