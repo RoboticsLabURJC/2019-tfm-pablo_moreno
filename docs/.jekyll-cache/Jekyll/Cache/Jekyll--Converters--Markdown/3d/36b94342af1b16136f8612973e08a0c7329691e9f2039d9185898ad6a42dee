@@ -1,0 +1,37 @@
+I"�<p>Hi again!</p>
+
+<p>On this week, I’ve been working on Kibotics-Server. It’s a Django based server, so my previous work
+has been too useful. The difference is that the previous Django examples where tiny comparing with this one.</p>
+
+<p>On the first days I’ve finished developing the Video-Chat Django example. You can see the video 
+<a href="">here</a>.</p>
+
+<p>On this last days I’ve been studying the code and I’ve been working on the chat. It’s almost done but
+I need a way to connect different users. The last, and best, option is using a token for each
+chat room. This way It’s better than using the simulation-id. Tha final step is adding different user with the same token
+because the signaling server works fine and the channel are set.</p>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/images/posts/webrtc-logo.png">
+        <img src="/assets/images/posts/webrtc-logo.png" alt="WebRTC" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/posts/django-channels-logo.webp">
+        <img src="/assets/images/posts/django-channels-logo.webp" alt="WebRTC" />
+      </a>
+    
+  
+  
+    <figcaption>WebRTC &amp; Django-Channels logos
+</figcaption>
+  
+</figure>
+
+<p>And that’s all about this week!</p>
+
+<p>Pablo.</p>
+:ET
