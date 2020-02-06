@@ -1,0 +1,32 @@
+I"<p>Hi again!</p>
+
+<p>On this week, I’ve been still working on Kibotics-Server. I’ve finished develop the chat and I’ve developed the
+video streaming. In addition, I’ve add a feature with which  only the WebSim simulator is transmitted, so It’s perfect!.</p>
+
+<p>In the chat code, I’ve added a palette color button so, depending on the state of the connection, the button color changes.
+I’ve also created a user checker algorithm so only two users can be in the same chat at the same time.</p>
+
+<p>In the stream code, I’ve finally achieved the video transmission via canvas. That’s because the html WebSim element is a canvas
+element. In that way, I could sed the streaming with no problems. I’ve also implement a disconnection code with perfects results.
+You can see the progress <a href="https://www.youtube.com/watch?v=5AFm1MT47_s">here</a>.</p>
+
+<p>I’ve also created a new exercise to implement this media options and I had to create a new user to test this performance.</p>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/posts/kibotics.png">
+        <img src="/assets/images/posts/kibotics.png" alt="Kibotics" />
+      </a>
+    
+  
+  
+    <figcaption>Kibotics logo
+</figcaption>
+  
+</figure>
+
+<p>And that’s all about this week!</p>
+
+<p>Pablo.</p>
+:ET

@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-30T13:04:54+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 3. Learning Django-Channels</title><link href="http://localhost:4000/previous%20work/week-3/" rel="alternate" type="text/html" title="Week 3. Learning Django-Channels" /><published>2020-01-23T00:00:00+01:00</published><updated>2020-01-23T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-3</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-3/">&lt;p&gt;Hi again!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-06T12:32:21+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 5. Video-Chat in Kibotics-WebServer</title><link href="http://localhost:4000/previous%20work/week-5/" rel="alternate" type="text/html" title="Week 5. Video-Chat in Kibotics-WebServer" /><published>2020-02-06T00:00:00+01:00</published><updated>2020-02-06T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-5</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-5/">&lt;p&gt;Hi again!&lt;/p&gt;
+
+&lt;p&gt;On this week, I’ve been still working on Kibotics-Server. I’ve finished develop the chat and I’ve developed the
+video streaming. In addition, I’ve add a feature with which  only the WebSim simulator is transmitted, so It’s perfect!.&lt;/p&gt;
+
+&lt;p&gt;In the chat code, I’ve added a palette color button so, depending on the state of the connection, the button color changes.
+I’ve also created a user checker algorithm so only two users can be in the same chat at the same time.&lt;/p&gt;
+
+&lt;p&gt;In the stream code, I’ve finally achieved the video transmission via canvas. That’s because the html WebSim element is a canvas
+element. In that way, I could sed the streaming with no problems. I’ve also implement a disconnection code with perfects results.
+You can see the progress &lt;a href=&quot;https://www.youtube.com/watch?v=5AFm1MT47_s&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’ve also created a new exercise to implement this media options and I had to create a new user to test this performance.&lt;/p&gt;
+
+&lt;figure class=&quot; &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/posts/kibotics.png&quot;&gt;
+        &lt;img src=&quot;/assets/images/posts/kibotics.png&quot; alt=&quot;Kibotics&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Kibotics logo
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;And that’s all about this week!&lt;/p&gt;
+
+&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 4" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="Python" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><category term="Django" /><category term="Django-Channels" /><category term="Kibotics-Server" /><category term="Canvas streaming" /><summary type="html">Django tecnologies</summary></entry><entry><title type="html">Week 4. Working on Kibotics-Server</title><link href="http://localhost:4000/previous%20work/week-4/" rel="alternate" type="text/html" title="Week 4. Working on Kibotics-Server" /><published>2020-01-30T00:00:00+01:00</published><updated>2020-01-30T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-4</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-4/">&lt;p&gt;Hi again!&lt;/p&gt;
+
+&lt;p&gt;On this week, I’ve been working on Kibotics-Server. It’s a Django based server, so my previous work
+has been too useful. The difference is that the previous Django examples where tiny comparing with this one.&lt;/p&gt;
+
+&lt;p&gt;On the first days I’ve finished developing the Video-Chat Django example. You can see the video 
+&lt;a href=&quot;https://www.youtube.com/watch?v=mqlMRcmAtHE&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On this last days I’ve been studying the code and I’ve been working on the chat. It’s almost done but
+I need a way to connect different users. The last, and best, option is using a token for each
+chat room. This way It’s better than using the simulation-id. Tha final step is adding different user with the same token
+because the signaling server works fine and the channel are set.&lt;/p&gt;
+
+&lt;figure class=&quot; &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/posts/KServer-Chat1.png&quot;&gt;
+        &lt;img src=&quot;/assets/images/posts/KServer-Chat1.png&quot; alt=&quot;KServer-Chat1&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Kibotics WebServer chat first view
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;And that’s all about this week!&lt;/p&gt;
+
+&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 4" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="Python" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><category term="Django" /><category term="Django-Channels" /><category term="Kibotics-Server" /><summary type="html">Django tecnologies</summary></entry><entry><title type="html">Week 3. Learning Django-Channels</title><link href="http://localhost:4000/previous%20work/week-3/" rel="alternate" type="text/html" title="Week 3. Learning Django-Channels" /><published>2020-01-23T00:00:00+01:00</published><updated>2020-01-23T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-3</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-3/">&lt;p&gt;Hi again!&lt;/p&gt;
 
 &lt;p&gt;On my third week I’ve been working on two main projects. I’ve been continue learning about WebRTC, specially about RTCPeerConnections,
 WebSockets and RTCPeerConnections and I’ve also learned about Django and Django-Channels.&lt;/p&gt;
@@ -35,36 +94,7 @@ version is 3.0.2 and 2.4 for Django-Channels so I really don’t know if this ol
 
 &lt;p&gt;And that’s all about this week!&lt;/p&gt;
 
-&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 3" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="Python" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><category term="Django" /><category term="Django-Channels" /><summary type="html">Django tecnologies</summary></entry><entry><title type="html">Week 4. Working on Kibotics-Server</title><link href="http://localhost:4000/previous%20work/week-4/" rel="alternate" type="text/html" title="Week 4. Working on Kibotics-Server" /><published>2020-01-20T00:00:00+01:00</published><updated>2020-01-20T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-4</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-4/">&lt;p&gt;Hi again!&lt;/p&gt;
-
-&lt;p&gt;On this week, I’ve been working on Kibotics-Server. It’s a Django based server, so my previous work
-has been too useful. The difference is that the previous Django examples where tiny comparing with this one.&lt;/p&gt;
-
-&lt;p&gt;On the first days I’ve finished developing the Video-Chat Django example. You can see the video 
-&lt;a href=&quot;https://www.youtube.com/watch?v=mqlMRcmAtHE&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;On this last days I’ve been studying the code and I’ve been working on the chat. It’s almost done but
-I need a way to connect different users. The last, and best, option is using a token for each
-chat room. This way It’s better than using the simulation-id. Tha final step is adding different user with the same token
-because the signaling server works fine and the channel are set.&lt;/p&gt;
-
-&lt;figure class=&quot; &quot;&gt;
-  
-    
-      &lt;a href=&quot;/assets/images/posts/KServer-Chat1.png&quot;&gt;
-        &lt;img src=&quot;/assets/images/posts/KServer-Chat1.png&quot; alt=&quot;KServer-Chat1&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-  
-    &lt;figcaption&gt;Kibotics WebServer chat first view
-&lt;/figcaption&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;And that’s all about this week!&lt;/p&gt;
-
-&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 4" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="Python" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><category term="Django" /><category term="Django-Channels" /><category term="Kibotics-Server" /><summary type="html">Django tecnologies</summary></entry><entry><title type="html">Week 2. Learning WebRTC</title><link href="http://localhost:4000/previous%20work/week-2/" rel="alternate" type="text/html" title="Week 2. Learning WebRTC" /><published>2020-01-16T00:00:00+01:00</published><updated>2020-01-16T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-2</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-2/">&lt;p&gt;Hi again!&lt;/p&gt;
+&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 3" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="Python" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><category term="Django" /><category term="Django-Channels" /><summary type="html">Django tecnologies</summary></entry><entry><title type="html">Week 2. Learning WebRTC</title><link href="http://localhost:4000/previous%20work/week-2/" rel="alternate" type="text/html" title="Week 2. Learning WebRTC" /><published>2020-01-16T00:00:00+01:00</published><updated>2020-01-16T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-2</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-2/">&lt;p&gt;Hi again!&lt;/p&gt;
 
 &lt;p&gt;On my second week I’ve been working on WebRTC tecnologies like WebSockets, RTCPeerConnection and DataChannels.
 The main objective is develop a code to share a video element (in this case is the Kibotics websim) with othe user using WebRTC.&lt;/p&gt;

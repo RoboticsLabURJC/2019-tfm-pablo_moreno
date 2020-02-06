@@ -24,13 +24,18 @@ var store = [{
         "tags": ["logbook","first steps","week 2","WebRTC","WebSocket","JavaScript","HTML","CSS","RTCPeerConnections","DataChannels"],
         "url": "http://localhost:4000/previous%20work/week-2/",
         "teaser":null},{
+        "title": "Week 3. Learning Django-Channels",
+        "excerpt":"Hi again! On my third week I’ve been working on two main projects. I’ve been continue learning about WebRTC, specially about RTCPeerConnections, WebSockets and RTCPeerConnections and I’ve also learned about Django and Django-Channels. On my WebRTC work I’ve finished a Chat &amp; Screen-sharing server. You can check the progress on...","categories": ["Previous work"],
+        "tags": ["logbook","first steps","week 3","WebRTC","WebSocket","JavaScript","Python","HTML","CSS","RTCPeerConnections","DataChannels","Django","Django-Channels"],
+        "url": "http://localhost:4000/previous%20work/week-3/",
+        "teaser":null},{
         "title": "Week 4. Working on Kibotics-Server",
         "excerpt":"Hi again! On this week, I’ve been working on Kibotics-Server. It’s a Django based server, so my previous work has been too useful. The difference is that the previous Django examples where tiny comparing with this one. On the first days I’ve finished developing the Video-Chat Django example. You can...","categories": ["Previous work"],
         "tags": ["logbook","first steps","week 4","WebRTC","WebSocket","JavaScript","Python","HTML","CSS","RTCPeerConnections","DataChannels","Django","Django-Channels","Kibotics-Server"],
         "url": "http://localhost:4000/previous%20work/week-4/",
         "teaser":null},{
-        "title": "Week 3. Learning Django-Channels",
-        "excerpt":"Hi again! On my third week I’ve been working on two main projects. I’ve been continue learning about WebRTC, specially about RTCPeerConnections, WebSockets and RTCPeerConnections and I’ve also learned about Django and Django-Channels. On my WebRTC work I’ve finished a Chat &amp; Screen-sharing server. You can check the progress on...","categories": ["Previous work"],
-        "tags": ["logbook","first steps","week 3","WebRTC","WebSocket","JavaScript","Python","HTML","CSS","RTCPeerConnections","DataChannels","Django","Django-Channels"],
-        "url": "http://localhost:4000/previous%20work/week-3/",
+        "title": "Week 5. Video-Chat in Kibotics-WebServer",
+        "excerpt":"Hi again! On this week, I’ve been still working on Kibotics-Server. I’ve finished develop the chat and I’ve developed the video streaming. In addition, I’ve add a feature with which only the WebSim simulator is transmitted, so It’s perfect!. In the chat code, I’ve added a palette color button so,...","categories": ["Previous work"],
+        "tags": ["logbook","first steps","week 4","WebRTC","WebSocket","JavaScript","Python","HTML","CSS","RTCPeerConnections","DataChannels","Django","Django-Channels","Kibotics-Server","Canvas streaming"],
+        "url": "http://localhost:4000/previous%20work/week-5/",
         "teaser":null}]
