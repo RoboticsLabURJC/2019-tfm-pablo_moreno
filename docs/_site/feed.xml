@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-06T12:32:21+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 5. Video-Chat in Kibotics-WebServer</title><link href="http://localhost:4000/previous%20work/week-5/" rel="alternate" type="text/html" title="Week 5. Video-Chat in Kibotics-WebServer" /><published>2020-02-06T00:00:00+01:00</published><updated>2020-02-06T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-5</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-5/">&lt;p&gt;Hi again!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-13T12:33:25+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Robotics Lab URJC</title><subtitle>Programming Robot Intelligence</subtitle><author><name>Pablo Moreno</name></author><entry><title type="html">Week 6. Synchronous exercises V1</title><link href="http://localhost:4000/previous%20work/week-6/" rel="alternate" type="text/html" title="Week 6. Synchronous exercises V1" /><published>2020-02-13T00:00:00+01:00</published><updated>2020-02-13T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-6</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-6/">&lt;p&gt;Hi again!&lt;/p&gt;
+
+&lt;p&gt;On this week, I’ve been still working on Kibotics-Server. I’ve done a very first version of synchronous exercises and I’ve updated
+the Scratch templates to work with both synchronous and asynchronous exercises.&lt;/p&gt;
+
+&lt;p&gt;The HTML-Django templates It’s been a tough work but, at the end, I did it. Now there are two different scratch templates
+for the three differents scratch exercises (individual, asynchronous and synchronous).&lt;/p&gt;
+
+&lt;p&gt;On the other side, I’ve been developing a “Share Code” option and run it on the other browser. I’ve finally done it, although
+It needs a testing and fixing several features. You can chat with other user, stream the simulator, and send your code to run it 
+on the other browser and sees it via streaming. You can watch an example &lt;a href=&quot;https://youtu.be/viNRkbHUdDQ&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot; &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/posts/kibotics.png&quot;&gt;
+        &lt;img src=&quot;/assets/images/posts/kibotics.png&quot; alt=&quot;Kibotics&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Kibotics logo
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;And that’s all about this week!&lt;/p&gt;
+
+&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 6" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="Python" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><category term="Django" /><category term="Django-Channels" /><category term="Kibotics-Server" /><category term="Canvas streaming" /><category term="Django Templates" /><summary type="html">Django tecnologies</summary></entry><entry><title type="html">Week 5. Video-Chat in Kibotics-WebServer</title><link href="http://localhost:4000/previous%20work/week-5/" rel="alternate" type="text/html" title="Week 5. Video-Chat in Kibotics-WebServer" /><published>2020-02-06T00:00:00+01:00</published><updated>2020-02-06T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-5</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-5/">&lt;p&gt;Hi again!&lt;/p&gt;
 
 &lt;p&gt;On this week, I’ve been still working on Kibotics-Server. I’ve finished develop the chat and I’ve developed the
 video streaming. In addition, I’ve add a feature with which  only the WebSim simulator is transmitted, so It’s perfect!.&lt;/p&gt;
@@ -28,7 +56,7 @@ You can see the progress &lt;a href=&quot;https://www.youtube.com/watch?v=5AFm1M
 
 &lt;p&gt;And that’s all about this week!&lt;/p&gt;
 
-&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 4" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="Python" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><category term="Django" /><category term="Django-Channels" /><category term="Kibotics-Server" /><category term="Canvas streaming" /><summary type="html">Django tecnologies</summary></entry><entry><title type="html">Week 4. Working on Kibotics-Server</title><link href="http://localhost:4000/previous%20work/week-4/" rel="alternate" type="text/html" title="Week 4. Working on Kibotics-Server" /><published>2020-01-30T00:00:00+01:00</published><updated>2020-01-30T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-4</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-4/">&lt;p&gt;Hi again!&lt;/p&gt;
+&lt;p&gt;Pablo.&lt;/p&gt;</content><author><name>pmvera</name></author><category term="logbook" /><category term="first steps" /><category term="week 5" /><category term="WebRTC" /><category term="WebSocket" /><category term="JavaScript" /><category term="Python" /><category term="HTML" /><category term="CSS" /><category term="RTCPeerConnections" /><category term="DataChannels" /><category term="Django" /><category term="Django-Channels" /><category term="Kibotics-Server" /><category term="Canvas streaming" /><summary type="html">Django tecnologies</summary></entry><entry><title type="html">Week 4. Working on Kibotics-Server</title><link href="http://localhost:4000/previous%20work/week-4/" rel="alternate" type="text/html" title="Week 4. Working on Kibotics-Server" /><published>2020-01-30T00:00:00+01:00</published><updated>2020-01-30T00:00:00+01:00</updated><id>http://localhost:4000/previous%20work/week-4</id><content type="html" xml:base="http://localhost:4000/previous%20work/week-4/">&lt;p&gt;Hi again!&lt;/p&gt;
 
 &lt;p&gt;On this week, I’ve been working on Kibotics-Server. It’s a Django based server, so my previous work
 has been too useful. The difference is that the previous Django examples where tiny comparing with this one.&lt;/p&gt;

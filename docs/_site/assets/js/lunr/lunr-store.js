@@ -36,6 +36,11 @@ var store = [{
         "teaser":null},{
         "title": "Week 5. Video-Chat in Kibotics-WebServer",
         "excerpt":"Hi again! On this week, I’ve been still working on Kibotics-Server. I’ve finished develop the chat and I’ve developed the video streaming. In addition, I’ve add a feature with which only the WebSim simulator is transmitted, so It’s perfect!. In the chat code, I’ve added a palette color button so,...","categories": ["Previous work"],
-        "tags": ["logbook","first steps","week 4","WebRTC","WebSocket","JavaScript","Python","HTML","CSS","RTCPeerConnections","DataChannels","Django","Django-Channels","Kibotics-Server","Canvas streaming"],
+        "tags": ["logbook","first steps","week 5","WebRTC","WebSocket","JavaScript","Python","HTML","CSS","RTCPeerConnections","DataChannels","Django","Django-Channels","Kibotics-Server","Canvas streaming"],
         "url": "http://localhost:4000/previous%20work/week-5/",
+        "teaser":null},{
+        "title": "Week 6. Synchronous exercises V1",
+        "excerpt":"Hi again! On this week, I’ve been still working on Kibotics-Server. I’ve done a very first version of synchronous exercises and I’ve updated the Scratch templates to work with both synchronous and asynchronous exercises. The HTML-Django templates It’s been a tough work but, at the end, I did it. Now...","categories": ["Previous work"],
+        "tags": ["logbook","first steps","week 6","WebRTC","WebSocket","JavaScript","Python","HTML","CSS","RTCPeerConnections","DataChannels","Django","Django-Channels","Kibotics-Server","Canvas streaming","Django Templates"],
+        "url": "http://localhost:4000/previous%20work/week-6/",
         "teaser":null}]

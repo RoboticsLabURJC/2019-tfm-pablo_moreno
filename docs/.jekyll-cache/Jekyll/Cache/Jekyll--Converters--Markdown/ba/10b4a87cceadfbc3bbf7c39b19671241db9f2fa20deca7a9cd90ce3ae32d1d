@@ -1,0 +1,30 @@
+I"u<p>Hi again!</p>
+
+<p>On this week, I’ve been still working on Kibotics-Server. I’ve done a very first version of synchronous exercises and I’ve updated
+the Scratch templates to work with both synchronous and asynchronous exercises.</p>
+
+<p>The HTML-Django templates It’s been a tough work but, at the end, I did it. Now there are two different scratch templates
+for the three differents scratch exercises (individual, asynchronous and synchronous).</p>
+
+<p>On the other side, I’ve been developing a “Share Code” option and run it on the other browser. I’ve finally done it, although
+It needs a testing and fixing several features. You can chat with other user, stream the simulator, and send your code to run it 
+on the other browser and sees it via streaming. You can watch an example <a href="https://youtu.be/viNRkbHUdDQ">here</a>.</p>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/posts/kibotics.png">
+        <img src="/assets/images/posts/kibotics.png" alt="Kibotics" />
+      </a>
+    
+  
+  
+    <figcaption>Kibotics logo
+</figcaption>
+  
+</figure>
+
+<p>And that’s all about this week!</p>
+
+<p>Pablo.</p>
+:ET
